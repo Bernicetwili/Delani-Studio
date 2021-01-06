@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+h1,h4{
+    text-align: center;
+}
+#bgimg{
+    background-position: center center;
+    
+}
+#mouse{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+p,h3{
+    text-align: center;
+}
+h3{
+    padding-top: 40px;
+}
+#hide,#hide2,#hide3{
+    display: none;
+}
+#work4,#work1,#work2,#work3,#work5,#work6,#work7,#work8{
+    padding: 0.5pc;
+    width: 250px;
+    height: 170px;
+}
+#port{
+    padding-left: 4pc;
+}
