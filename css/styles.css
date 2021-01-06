@@ -7,12 +7,12 @@
     margin-right: auto;
     padding-top: 70px;
 }
-h1,h4{
+h1,h4,h5{
     text-align: center;
 }
 #bgimg{
     background-position: center center;
-    
+    margin: auto;
 }
 #mouse{
     display: block;
@@ -37,4 +37,36 @@ h3{
 }
 #port{
     padding-left: 4pc;
+}
+.white{
+    color: white;
+}
+#extend{
+    padding-bottom: 7pc;
+}
+#xtend{
+    padding-bottom: 3pc;
+}
+#bold{
+    padding-bottom: 2pc;
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#middle{
+    padding-bottom: 10pc;
+}
+.container{
+    padding-bottom: 2pc;
+}
+footer{
+    position: relative;
+    height: auto;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    padding-top: 1pc;
 }
