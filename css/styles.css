@@ -70,3 +70,14 @@ h6{
     text-align: center;
     padding-top: 1pc;
 }
+::placeholder{
+    color: white;
+    opacity: 10; /* Firefox */
+  }
+.card:hover{
+
+}
+#pet{
+    display: none;
+}
+  

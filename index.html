@@ -88,7 +88,10 @@
           <div class="row" style="background: white;">
             <div class="col-md-12" id="port">
             <h3><strong>PORTFOLIO</strong></h3>
+            
+           
               <img src="/IP3-master/assets/portfolio/work4.jpg" id="work4">
+             
               <img src="/IP3-master/assets/portfolio/work3.jpg" id="work3">
               <img src="/IP3-master/assets/portfolio/work2.jpg" id="work2">
               <img src="/IP3-master/assets/portfolio/work1.jpg" id="work1">
@@ -102,25 +105,28 @@
           <h3><strong>CONTACT</strong></h3>
           <div class="row" style="background-image: url(/IP3-master/assets/backgrounds/c_image.jpg);">
             <div class="col-md-6">
-              
+            <form id="my-form">
               <div class="form-group">
                 <label for="">   </label>
-                <input type="name" class="form-control" placeholder="Name..." required>
+                <input type="name" class="form-control" id="name" placeholder="Name..." style="background: transparent;" required>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="">   </label>
-                <input type="text" class="form-control" placeholder="Email..." required>
+                <input type="email" class="form-control" id="email" placeholder="Email..." style="background: transparent;" required>
               </div>
             </div>
             <div class="col-md-8" id="middle">
               <div class="form-group">
                 <label for=""></label>
-                <input type="text" class="form-control" placeholder="Your message here..." required>
-               
+                <input type="message" class="form-control" id="message" placeholder="Your message here..." style="background: transparent; height: pc;padding-bottom: 10pc; padding-top: 1pc;" required>
+                
+                  <input type="submit" value="submit" id="submit">
+                
               </div>
             </div>
+            </form>
           </div>
         </div>
        <footer>
