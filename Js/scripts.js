@@ -23,7 +23,6 @@ $(document).ready(function () {
     $("#my-form").submit(function (event) {
       event.preventDefault();
       var name = $("#name").val();
-      let name = $("#name").val();
         alert("Hey " + name + ",thank you for reaching out to us,We will get back to you");
         
         
